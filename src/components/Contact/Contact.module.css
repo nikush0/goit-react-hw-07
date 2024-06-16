@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .userContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .userPhone,
+  .userName {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .btn {
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    background-color: rgb(125, 126, 126);
+    box-shadow: 0 5px 5px #bababb;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:focus,
+  .btn:hover {
+    background-color: #7277e3;
+    box-shadow: 0 5px 5px #888;
+  }
